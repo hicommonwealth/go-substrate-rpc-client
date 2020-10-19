@@ -195,6 +195,7 @@ type EventRecords struct {
 	Multisig_Approval                  []EventMultisigApproval                  //nolint:stylecheck,golint
 	Multisig_Executed                  []EventMultisigExecuted                  //nolint:stylecheck,golint
 	Multisig_Cancelled                 []EventMultisigCancelled                 //nolint:stylecheck,golint
+	TreasuryReward_TreasuryMiting	   []EventTreasuryRewardMinting		        //nolint:stylecheck,golint
 }
 
 // DecodeEventRecords decodes the events records from an EventRecordRaw into a target t using the given Metadata m

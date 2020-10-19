@@ -1309,3 +1309,9 @@ type EventMultisigCancelled struct {
 	CallHash  Hash
 	Topics    []Hash
 }
+
+type EventTreasuryRewardMinting struct {
+	Balance U128
+	BlockNumber BlockNumber
+	AccountId AccountID
+}
